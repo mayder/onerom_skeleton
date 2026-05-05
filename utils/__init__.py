@@ -1,0 +1,1 @@
+"""Utilitarios genericos do robo."""

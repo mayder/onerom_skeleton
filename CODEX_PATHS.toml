@@ -1,0 +1,15 @@
+# Project map for Codex inside a generated Onerom bot.
+# This file is the source of truth for local paths and checks.
+
+[robot]
+root = "."
+roadmap = "./QUALITY_ROADMAP.md"
+governance = "./GOVERNANCA.md"
+backlog = "./DEMANDAS.md"
+check = "./check.sh"
+
+[python]
+root = "."
+roadmap = "./QUALITY_ROADMAP.md"
+check = "./check.sh"
+env_example = "./.env.example"
