@@ -147,3 +147,13 @@ Para publicar este skeleton em um repositorio separado:
 3. Execute `./check.sh` no repositorio novo.
 4. Crie a tag inicial `v0.1.0` somente depois do gate verde.
 5. Configure o AI Builder Runner para consumir tag, SHA ou release artifact.
+
+---
+
+## Modelo de trabalho IA - 2026-05-22
+
+Projeto: `onerom_skeleton`. Stack: Template Onerom, pytest, ruff. Este arquivo segue o modelo oficial em `PATHS.toml` e deve ser atualizado ao iniciar ou alterar o projeto.
+
+## Modelo de trabalho
+
+- `MAPA_MENTAL_MARKMAP.md` contem o mapa completo para visualizar no Markmap; `MAPA_EXECUTIVO_MARKMAP.md` contem a versao resumida.

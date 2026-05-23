@@ -39,3 +39,13 @@ Status atual: planejado.
   - [ ] `./check.sh` verde;
   - [ ] fluxo principal validado;
   - [ ] evidencias registradas quando aplicavel.
+
+---
+
+## Modelo de trabalho IA - 2026-05-22
+
+Projeto: `onerom_skeleton`. Stack: Template Onerom, pytest, ruff. Este arquivo segue o modelo oficial em `PATHS.toml` e deve ser atualizado ao iniciar ou alterar o projeto.
+
+## Quando criar pacote
+
+Criar pacote quando houver varias demandas relacionadas, risco transversal, mudanca em mais de um modulo ou necessidade de dividir entrega em lotes. Um lote pode resolver uma ou mais demandas, mas o pacote so fecha apos check completo e review de fechamento.

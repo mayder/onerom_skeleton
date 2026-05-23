@@ -56,3 +56,14 @@ Este arquivo define gates, riscos, evidencias e rollback para um robo gerado a p
 - `CODEX_PATHS.toml`: paths e check oficial.
 - `QUALITY_ROADMAP.md`: workflow tecnico e Definition of Done.
 - `DEMANDAS.md`: backlog executavel do robo.
+
+---
+
+## Modelo de trabalho IA - 2026-05-22
+
+Projeto: `onerom_skeleton`. Stack: Template Onerom, pytest, ruff. Este arquivo segue o modelo oficial em `PATHS.toml` e deve ser atualizado ao iniciar ou alterar o projeto.
+
+## Banco e governanca tecnica
+
+- Migrations são proibidas. Alteracoes de banco devem ser entregues como scripts `.sql`, preferencialmente idempotentes.
+- Mudancas com risco transversal exigem rollback, evidencia de teste e registro em `DECISOES.md` quando criarem padrao duradouro.
